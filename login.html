@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head><img src="img/header.png"  alt="header and logo"/></head>
+	<meta charset="UTF-8">
+    <title>Log In</title>
+	<body>    
+		
+		<div style="text-align:left">
+		<div class="nav"> <a class="active" href="index.html">Home</a>
+		</div>
+		
+	<h1>Log In</h1> 
+		<form  action="do_login.php" method="POST"> 
+			 <p> 
+				  <label for="username" class="uname">Username:</label>
+				  <input id="username" name="username" required="required" type="text" placeholder="Username"/>
+			 </p>
+			 <p> 
+				  <label for="password" class="password">Password:</label>
+				  <input id="password" name="password" required="required" type="password" placeholder="Password"/> 
+			 </p>
+			 <p class="keeplogin"> 
+				  <input type="checkbox" name="keeplogin" id="keeplogin" value="keeplogin"/> 
+				  <label for="keeplogin">Keep me logged in</label>
+			 </p>
+			 <p class="login button"> 
+				  <input type="submit" value="Login"/> 
+			 </p>
+		</form>
+		
+		
+
+	</body>
+</html>
