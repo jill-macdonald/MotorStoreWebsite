@@ -1,2 +1,3 @@
 # MotorStore
-Motor Store web site
+E-commerce website selling cars.
+HNC web development project.
