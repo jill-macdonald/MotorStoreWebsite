@@ -1,107 +1,238 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-  <head><img src="img/header.png"  alt="header and logo"/></head>
-	<meta charset="UTF-8">
-    <title>Motor Store</title>
-	<style>
-		button
-		{
-			height:25px;
-			width:100px;
-		}
+	<head>
+		<title>MotorStore</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-		a:link
-		{
-			color: black;
-		}
-		a:hover
-		{
-			color: blue;
-		}
-		a:active
-		{
-			color: blue;
-		}
-		
-		log in
-		{
-	
-			float:right;
-			text-align:right;
-			margin:1.0em;
-		}
-				
-		
-		.container li 
-		{
-			float:left;
-			text-align:center;
-			margin:0.4em;
-		}
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
 
-		.container img 
-		{
-			display:block;
-			height:300px;
-			width:400px;
-			background-color:#D3D3D3
-		}
-		ul
-		{ 
-			list-style-type: none; 
-		}
-		p
-		{
-			text-align:centre;
-		}
-		
-	</style>
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">MotorStore</span>
+								</a>
 
-  <body>
-    <h1>Motor Store</h1>
-    <p>Welcome!</p>
-	
-	<div style="text-align:right">
-	<div class="nav"><a class="active" href="login.html"><h4>Log In</a></h4>
-	</div>
-	
-	<div style="text-align:right">
-	<div class="nav"><a class="active" href="register.html"><h4>Create An Account</a></h4>
-	
-	<div style="text-align:right">
-	<div class="nav"><a class="active" href="user_update.php"><h4>Edit Profile</a></h4>
-	</div>
-	
-	<div style="text-align:right">
-	<div class="nav"><a class="active" href="basket.html"><h4>Basket</a></h4>
-	</div>
-	
-	<div style="text-align:center">
-    <div class="nav"> <a class="active" href="index.html">Home</a>
-		<a href="browse1.php">Browse</a>
-		<br>
-		</br>
-      <div class="search">
-        <form action="./action.html"> <input placeholder="search.." name="search" type="text"> 
-		<br>
-		</br>
-		<button type="submit"> <i class="search"></i>Search</button>
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
 
-        </form>
-      </div>
-    </div>
+						</div>
+					</header>
 
-	
-	<p>Popular</p>
-	<ul class="container">
-		<li>Jaguar F-Type SVR<img src="img/jag_f_svr.jpg" width="100" height="100" alt="Jaguar F-Type SVR" />
-		<li>Mazda 6<img src="img/mazda6.jpg" width="100" height="100" alt="Mazda 6" />
-		<li>Lexus 570 SUV<img src="img/lexus_lx570_suv.jpg" width="100" height="100" alt="Lexus 570 SUV" />
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="login.html">Log In</a></li>
+							<li><a href="generic.html">New Cars</a></li>
+							<li><a href="generic.html">Used Cars</a></li>
+							<li><a href="generic.html">Sell Your Car</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+					</nav>
 
-	</ul>
-	
-	<body bgcolor="#b3c3f4">
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+								<h1>Welcome to <b>MotorStore</b><br /></h1>
+								<p>You can buy a brand new car or a used car and even sell your own car, 
+									maybe even swap your car for someone elses.
+								</p>
+							</header>
+							<section class="tiles">
+								<article class="style1">
+									<span class="image">
+										<img src="images/pic01.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Jaguar</h2>
+										<div class="content">
+											<p>Click to view some Jaguar cars.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style2">
+									<span class="image">
+										<img src="images/pic02.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Ford</h2>
+										<div class="content">
+											<p>Click to view some Ford cars.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style3">
+									<span class="image">
+										<img src="images/pic03.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Mitsubishi</h2>
+										<div class="content">
+											<p>Click to view some Mitsubishi cars.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style4">
+									<span class="image">
+										<img src="images/pic04.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Seat</h2>
+										<div class="content">
+											<p>Click to view some Seat cars.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style5">
+									<span class="image">
+										<img src="images/pic05.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Volkswagen</h2>
+										<div class="content">
+											<p>Click to view some Volkswagen cars.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style6">
+									<span class="image">
+										<img src="images/pic06.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Subaru</h2>
+										<div class="content">
+											<p>Click to view some Subaru cars.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style2">
+									<span class="image">
+										<img src="images/pic07.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Vauxhall</h2>
+										<div class="content">
+											<p>Click to view some Vauxhall cars.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style3">
+									<span class="image">
+										<img src="images/pic08.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Honda</h2>
+										<div class="content">
+											<p>Click to view some Honda cars.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style1">
+									<span class="image">
+										<img src="images/pic09.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Toyota</h2>
+										<div class="content">
+											<p>Click to view some Toyota cars.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style5">
+									<span class="image">
+										<img src="images/pic10.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Fiat</h2>
+										<div class="content">
+											<p>Click to view some Fiat cars.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style6">
+									<span class="image">
+										<img src="images/pic11.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Nissan</h2>
+										<div class="content">
+											<p>Click to view some Nissan cars.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style4">
+									<span class="image">
+										<img src="images/pic12.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>BMW</h2>
+										<div class="content">
+											<p>Click to view some BMW cars.</p>
+										</div>
+									</a>
+								</article>
+							</section>
+						</div>
+					</div>
 
-    
-  </body>
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="primary" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; jill-macdonald</li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>

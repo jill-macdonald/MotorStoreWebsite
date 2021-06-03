@@ -1,9 +1,24 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-  <head><img src="img/header.png"  alt="header and logo"/></head>
-	<meta charset="UTF-8">
-    <title>Log In</title>
-	<body>    
+	<head>
+		<title>Log In</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">MotorStore</span>
+								</a>   
 		
 		<div style="text-align:left">
 		<div class="nav"> <a class="active" href="index.html">Home</a>
@@ -11,24 +26,26 @@
 		
 	<h1>Log In</h1> 
 		<form  action="do_login.php" method="POST"> 
-			 <p> 
+			  
 				  <label for="username" class="uname">Username:</label>
 				  <input id="username" name="username" required="required" type="text" placeholder="Username"/>
-			 </p>
-			 <p> 
+			 
+			 
 				  <label for="password" class="password">Password:</label>
 				  <input id="password" name="password" required="required" type="password" placeholder="Password"/> 
-			 </p>
+			 <p></p>
 			 <p class="keeplogin"> 
 				  <input type="checkbox" name="keeplogin" id="keeplogin" value="keeplogin"/> 
 				  <label for="keeplogin">Keep me logged in</label>
 			 </p>
 			 <p class="login button"> 
-				  <input type="submit" value="Login"/> 
+				  <input type="submit" value="Login"/>
 			 </p>
-		</form>
-		
-		
+			</form>
+			<p>Not got an account?</p>
+			<a href="register.html" class="reg button">Register</a>
+			<p></p>
+
 
 	</body>
 </html>

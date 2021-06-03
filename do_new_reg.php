@@ -14,26 +14,18 @@ $sql="INSERT INTO customer
 (
 username,
 password,
-title,
-forename,
-surname,
-email,
-address,
-post_code,
-phone_no
+firstName,
+lastName
+email
 )
 
 VALUES
 (
 '".$_POST["username"]."',
 '".$_POST["password"]."',
-'".$_POST["title"]."',
-'".$_POST["forename"]."',
-'".$_POST["surname"]."',
-'".$_POST["email"]."',
-'".$_POST["address"]."',
-'".$_POST["post_code"]."',
-'".$_POST["phone_no"]."'
+'".$_POST["firstName"]."',
+'".$_POST["lastName"]."',
+'".$_POST["email"]."'
 )
 ";
 
