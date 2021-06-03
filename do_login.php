@@ -2,7 +2,7 @@
 include("_config.php");
 debug($_REQUEST);
 $username=$_POST['username'];	$password=$_POST['password'];
-$sql="SELECT COUNT(customer_id) AS matches FROM customer
+$sql="SELECT COUNT(customer_id) AS matches FROM user
 	WHERE username='$username'
 	AND password='$password'";
 print($sql);
@@ -18,7 +18,7 @@ if ($res) {
 		//we have a valid login
 		print("<br/>Matches found: $matches");
 		//create new query to get the customer record
-		$sql="SELECT * FROM customer WHERE username='$username' AND password='$password'";
+		$sql="SELECT * FROM user WHERE username='$username' AND password='$password'";
 		print($sql);
 		//execute and get the result from the query
 		$cust_res=$mysqli->query($sql);

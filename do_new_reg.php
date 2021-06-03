@@ -10,7 +10,7 @@ print_r($_POST);
 
 
 
-$sql="INSERT INTO customer
+$sql="INSERT INTO user
 (
 username,
 password,
@@ -32,7 +32,8 @@ VALUES
 print($sql);
 
 //connect to the database
-$mysqli = new mysqli("comp-server.uhi.ac.uk", "le14008428", "14008428", "le14008428");
+//$mysqli = new mysqli("comp-server.uhi.ac.uk", "le14008428", "14008428", "le14008428");
+$mysqli = new mysqli("localhost", "root", "", "motorstore");
 
 if ($mysqli->connect_errno) { //check connection
 	print("connect failed: ".$mysqli->connect_error."\n");
